@@ -1,0 +1,102 @@
+.a1 {
+    color: white;
+    background-color: #8855BB;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    border-radius: 0.25em;
+}
+
+.a1:hover {
+    color: #8855BB;
+    border-radius: 0;
+    box-shadow: 0 1.5em 0 white inset;
+}
+
+.a2 {
+    color: #8855BB;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 800;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    border-radius: 0;
+}
+
+.a2:hover {
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 1.5em 0 #8855BB inset;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    width: 75%;
+    color: #8855BB;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#exercises {
+    font-family: 'Montserrat', sans-serif;
+    color: #8855BB;
+    font-size: 14pt;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #8855BB;
+    padding: 0.125em 0.5em 0.125em 0.5em;
+    border-radius: 0.5em;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22pt;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    background-color: #8855BB;
+    padding: 0.5em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+#projects {
+    font-family: 'Montserrat', sans-serif;
+    color: #8855BB;
+    font-size: 14pt;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transFade {
+    transition: 0.5s;
+}
+
+ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
