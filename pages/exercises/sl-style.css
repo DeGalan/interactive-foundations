@@ -1,0 +1,119 @@
+.boxOuter {
+    width: 20em;
+    height: auto;
+    background-color: black;
+    border-radius: 1.25em;
+    padding: 0.25em;
+    margin: auto;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+.button {
+    z-index: 0;
+    transition: 0.25s;
+    width: 0.5em;
+    height: 4em;
+    background-color: black;
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+    display: block;
+    position: absolute;
+    margin-left: -0.65em;
+}
+
+.button:hover {
+    z-index: 0;
+    transition: 0.25s;
+    margin-left: -0.5em;
+}
+
+.contOuter {
+    width: 20em;
+    height: auto;
+    background-color: rgb(45,45,45);
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.contInner {
+    margin: auto;
+    width: 90%;
+    height: 32.5em;
+    margin-bottom: 1em;
+    background-color: black;
+    border-radius: 0.75em;
+}
+
+.contTop {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.25em;
+    width: 7.5em;
+    height: 1.5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: rgb(45,45,45);
+}
+
+.contTopCam {
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 3em;
+    margin-left: 1.5em;
+    top: 0.5em;
+    background-color: lime;
+    border-radius: 100%;
+    position: relative;
+}
+
+.contTopCam:hover {
+    background-color: red;
+}
+
+.contTopSlit {
+    width: 3em;
+    height: 0.5em;
+    background-color: rgb(75,75,75);
+    border-radius: 5em;
+    margin-left: 3em;
+    position: relative;
+}
+
+.contButton {
+    transition: 0.5s;
+    margin: auto;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(45,45,45);
+    border-radius: 100em;
+}
+
+.contButton:hover {
+    transition: 0.5s;
+    background-color: rgb(75,75,75);
+    box-shadow: 0 0.5em 1em 0.75em rgba(0,0,0,0.25) inset;
+}
+
+.contButtonOutline {
+    display: table-cell;
+    vertical-align: middle;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: black;
+    border-radius: 100em;
+}
+
+.contButtonCont {
+    margin-left: 41.25%;
+    margin-right: 41.25%;
+    display: block;
+}
