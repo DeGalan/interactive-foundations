@@ -59,6 +59,26 @@ background-size: cover;
     border-radius: 500px;
 }
 
+.dFont {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid white;
+    text-align: center;
+    margin: 10px auto 0;
+    width: 75%;
+    max-width: 500px;
+    display: block;
+}
+.dFont:hover {
+    box-shadow: 0 100px 0 rgba(255,255,255,0.75) inset, 0 20px 0 rgb(255,255,255) inset, 0 0 12.5px rgba(0,0,0,1);
+    border-radius: 5px;
+    color: black;
+    border: 2px solid transparent;
+}
+
 .exercises {
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -94,6 +114,19 @@ h1 {
     margin-right: auto;
     text-align: center;
     padding: 8.5px 0 12.5px 0;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    width: 50%;
+}
+
+.h2Top {
+    margin-top: 25px;
 }
 
 .portrait {

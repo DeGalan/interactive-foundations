@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background: lightgray;
+}
+
+.container {
+    width: 35%;
+    min-width: 350px;
+    height: auto;
+}
+
+.event {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    min-width: 350px;
+    background-color: white;
+    height: auto;
+    padding: 2em;
+}
+.event > div {
+    display: none;
+}
+.event:hover > div {
+    display: block;
+    height: 150%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 25px 0;
+    line-height: 0;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18.5px;
+    text-align: center;
+    line-height: 0;
+    margin: 0;
+    font-weight: 100;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+    background-color: green;
+    margin: 1em 0 0 0;
+}
+h4:hover {
+    background-color: white;
+    color: green;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: lightgray;
+    padding: 30px 10px;
+}
+
+.hidden {
+    height: 5px;
+}
+.hidden:hover {
+    display: inherit;
+}
+
+.trans {
+    transition: 0.5s;
+}
