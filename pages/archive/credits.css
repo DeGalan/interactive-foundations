@@ -72,6 +72,15 @@
         box-shadow: 0 75px 0 white inset;
     }
     
+    .aB {
+        margin: 0.5em 10%;
+        padding: 0.5em;
+        font-size: 24pt;
+    }
+    .aB:hover::before {
+        font-size: 24pt;
+    }
+    
     .header {
         font-size: 25pt;
     }
