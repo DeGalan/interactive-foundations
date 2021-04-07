@@ -4,15 +4,16 @@
 
 .aDate {
     font-family: 'bely-display', 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 40pt;
     font-weight: 800;
+    margin: -1em;
 }
 
 .aDesc {
     font-family: 'Roboto', 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 20pt;
-    margin-top: -3em;
+    margin-top: -5em;
 }
 
 .aFlex {
@@ -22,6 +23,7 @@
     width: 100%;
     height: 480px;
     overflow: hidden;
+    justify-content: space-between;
 }
 
 .aFlex .aDate1 {
@@ -68,6 +70,61 @@
     max-width: 320px;
     padding: 240px;
 }
+.aFlex .img7 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img8 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img9 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img10 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img11 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img12 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img13 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img14 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img15 {
+    min-width: 360px;
+    max-width: 480px;
+    padding: 240px;
+}
+.aFlex .img16 {
+    min-width: 650px;
+    max-width: 650px;
+    padding: 240px;
+}
+.aFlex .img17 {
+    min-width: 650px;
+    max-width: 650px;
+    padding: 240px;
+}
 
 .aFlex .imgX {
     padding: 240px;
@@ -85,7 +142,7 @@
     display: block;
     background-color: lightgray;
     background-image: url(https://ethics.org.au/wp-content/uploads/2018/08/Ethics-Centre_Animal-rights-should-trump-human-interests_-what_s-the-debate_.jpg);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -99,7 +156,27 @@ body {
 }
 
 .cBlue {
-    background-color: #07293a;
+    background-color: #07293A;
+}
+
+.cBlue2 {
+    background-color: #20346F;
+}
+
+.cBlue3 {
+    background-color: #263242;
+}
+
+.cBrown {
+    background-color: #BC7E45;
+}
+
+.cBrown2 {
+    background-color: #2F2A2A;
+}
+
+.cBrown3 {
+    background-color: #6E2E1A;
 }
 
 .cGold {
@@ -114,14 +191,40 @@ body {
     background-color: #797572;
 }
 
+.cGray2 {
+    background-color: #1E1E20;
+}
+
 .cGreen {
     background-color: rgb(0,150,50);
 }
+
+.cGreen2 {
+    background-color: #466334;
+}
+
+.cGreenDark {
+    background-color: #244E42;
+}
+
 .cRed {
     background-color: #680114;
 }
+
+.cRed2 {
+    background-color: #7B132E;
+}
+
+.cTyke {
+    background-color: #59515C;
+}
+
 .cOrange {
     background-color: #E17D03;
+}
+
+.cOrange2 {
+    background-color: #FA8D32;
 }
 
 h1 {
@@ -187,6 +290,93 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.img7 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/TomRegan2.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img8 {
+    background-image: url(https://farmusa.org/wp-content/uploads/2020/12/72630-SL-ACT-159-scaled.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img9 {
+    background-image: url(https://www.lcanimal.org/images/LCA_article_images/campaigns/fur/Mena-Donna.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img10 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0257/3165/products/MVA62849_1000x.jpeg?v=1497115978);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img11 {
+    background-image: url(https://c8.alamy.com/comp/2D5C595/protestor-with-monkey-mask-sits-in-a-cage-in-front-of-dutch-head-quarters-of-procter-and-gamble-of-the-a-member-of-the-animal-rights-activist-group-peta-people-for-the-ethical-treatment-of-animals-sits-in-a-cage-wearing-a-monkey-mask-during-a-demonstration-in-fornt-of-the-dutch-headquarters-of-procter-and-gamble-the-american-household-personal-care-and-pharmaceutical-product-manufacturer-in-rotterdam-january-27-peta-was-protesting-against-the-use-of-thousands-of-animals-used-in-painful-product-tests-in-the-companys-labatories-2D5C595.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img12 {
+    background-image: url(https://www.globalcosmeticsnews.com/wp-content/uploads/2018/11/Revlon_LipstickDay_BlogFeature_960x500_V1.png-1531855694.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img13 {
+    background-image: url(https://beyondtype1.org/wp-content/uploads/2020/07/BT1-CONTENT-MEDICATION-HEADER.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img14 {
+    background-image: url(https://nationalzoo.si.edu/sites/default/files/animals/lowlandgorilla-001.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.img15 {
+    background-image: url(https://www.hawaiinewsnow.com/resizer/EQDu9iOppTwd-2J8hFWfEnyKg_o=/1200x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/5FOXOLYLENAOPKU2PLHRR6Y3DQ.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img16 {
+    background-image: url(https://www.theghostsinourmachine.com/wp-content/uploads/2014/06/IMG_8390-Edit-5.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img17 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ee/Howard_Lyman_at_the_Intersectional_Justice_Conference.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .imgX {
     background-image: url(https://www.gannett-cdn.com/presto/2019/07/23/USAT/ff9d5c25-c0c0-47b0-8de5-9665c2217a97-forever21.jpg?crop=3661,2059,x1,y319&width=3200&height=1800&format=pjpg&auto=webp);
     background-attachment: scroll;
@@ -200,4 +390,82 @@ h1 {
 }
 
 @media only screen and (max-width: 860px) {
-}
+    .aFlex {
+        height: auto;
+        display: block;
+    }
+    .aFlex .aDiv {
+        width: 50%;
+    }
+    .aFlex .aDiv {
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    color: white;
+    display: flex;
+    }
+    .aFlex .img1 {
+        max-width: 860px;
+        min-width: 860px;
+        background-position: 0 -9em;
+    }
+    .aFlex .img2 {
+        padding: 240px;
+        max-width: 860px;
+    }
+    .aFlex .img3 {
+        max-width: 860px;
+        min-height: 480px;
+        background-color: black;
+        background-position: center;
+        background-size: 330px;
+    }
+    .aFlex .img4 {
+        min-width: 860px;
+        padding: 240px;
+        background-color: white;
+        background-size: 500px;
+    }
+    .aFlex .img5 {
+        min-width: 860px;
+        padding: 240px;
+    }
+    .aFlex .img6 {
+        min-width: 860px;
+        padding: 240px;
+        background-size: 40%;
+        background-color: white;
+    }
+    .aFlex .img7 {
+        min-width: 860px;
+    }
+    .aFlex .img8 {
+        min-width: 860px;
+    }
+    .aFlex .img9 {
+        min-width: 860px;
+    }
+    .aFlex .img10 {
+        min-width: 860px;
+    }
+    .aFlex .img11 {
+        min-width: 860px;
+    }
+    .aFlex .img12 {
+        min-width: 860px;
+    }
+    .aFlex .img13 {
+        min-width: 860px;
+    }
+    .aFlex .img14 {
+        min-width: 860px;
+    }
+    .aFlex .img15 {
+        min-width: 860px;
+    }
+    .aFlex .img16 {
+        min-width: 860px;
+    }
+    .aFlex .img17 {
+        min-width: 860px;
+    }
