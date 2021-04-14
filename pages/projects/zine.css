@@ -1,0 +1,135 @@
+a {
+    text-decoration: none;
+}
+
+.aLeft {
+    text-align: left;
+}
+
+.aMid {
+    text-align: center;
+}
+
+.aRight {
+    text-align: right;
+}
+
+.banner {
+    z-index: 0;
+    background-color: #89DB6C;
+    background-blend-mode: color-burn;
+    width: 100%;
+    height: 750px;
+}
+
+.bannerImage {
+    background-image: url(images/sunset.png);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    mix-blend-mode: color-burn;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+}
+
+.bar {
+    height: 75px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.barText1 {
+    padding-left: 1em;
+    position: absolute;
+}
+
+.barText2 {
+    position: absolute;
+    right: 25px;
+}
+
+body {
+    margin: 0;
+}
+
+.c1 {
+    background-color: #89DB6C;
+}
+
+.cat1 {
+    width: 100%;
+    display: grid;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-family: 'Urbane', sans-serif;
+    font-weight: 100;
+    font-size: 20pt;
+    text-decoration: none;
+    margin: 0;
+}
+
+.img1 {
+    background-image: url(https://live.staticflickr.com/1880/44669152811_13d589d497_b.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+}
+
+.title {
+    color: white;
+    top: 30%;
+    position: relative;
+    font-family: 'Urbane', sans-serif;
+    font-weight: 100;
+    font-size: 75pt;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.title2 {
+    color: white;
+    top: 30%;
+    position: relative;
+    font-family: 'Urbane', sans-serif;
+    font-weight: 100;
+    font-size: 20pt;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.trans {
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 860px) {
+    .bar {
+        height: 45px;
+    }
+    
+    .banner, .bannerImage {
+        height: 360px;
+    }
+    
+    h1 {
+        font-size: 15pt;
+        top: 25px;
+    }
+    
+    .title {
+        font-size: 45pt;
+    }
+    
+    .title2 {
+        font-size: 15pt;
+    }
+}
