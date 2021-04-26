@@ -1,74 +1,308 @@
+a {
+    text-decoration: none;
+}
+
 body {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .body1 {
-    font-family: 'Urbane', sans-serif;
-    font-weight: 100;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
     font-size: 14pt;
-    text-indent: 1.5em;
-    text-align: justify;
-    display: inline-block;
-}
-.body1:first-of-type {
     text-indent: 0;
+    text-align: left;
+    text-justify: inter-character;
+    line-height: 1.5em;
+    display: inline-block;
+    width: auto;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+.bodyColumn {
+    column-count: 1;
+    column-fill: balance;
+    column-gap: 4em;
 }
 
 .bodyCont {
-    margin: 0 75px;
-    display: grid;
-    grid-template-columns: 'main main';
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+}
+
+.button1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.button2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    padding: 10px 0;
+}
+
+.buttonActive {
+    background: rgb(90,200,100);
+    color: white;
+}
+.buttonActive:hover {
+    background: rgb(110,220,120);
+}
+
+.buttonActive2 {
+    background: rgb(200,75,75);
+    color: white;
+}
+.buttonActive2:hover {
+    background: rgb(220,95,95);
+}
+
+.buttonPassive {
+    background: lightgray;
+    color: white;
+}
+
+.buttonMargin {
+    margin-bottom: 15px;
+}
+
+.caption {
+    display: block;
+    position: relative;
+    font-family: 'Urbane', sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px 0;
+    color: gray;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.captionCred {
+    display: inline-block;
+    position: relative;
+    background: rgb(90,200,100);
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 25px;
+    margin-left: 1em;
+}
+.captionCred:hover {
+    background: rgb(190,190,190);
+}
+
+.creditsA {
+    color: black;
+    text-decoration: underline;
+    width: screen;
+    height: auto;
+    align-self: center;
+    margin: 0 15px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 2px;
+}
+.creditsA:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+    background: rgb(90,200,100);
+}
+
+.creditsB {
+    color: black;
+    text-decoration: none;
+    width: screen;
+    height: auto;
+    align-self: center;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.creditsC {
+    color: black;
+    text-decoration: none;
+    width: screen;
+    height: auto;
+    align-self: center;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.creditsCont {
+    display: flex;
+    align-content: center;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.creditsD {
+    color: gray;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    align-self: center;
+    display: inline-block;
+}
+
+.creditsDot {
+    color: black;
+    text-decoration: none;
+    width: screen;
+    height: auto;
+    align-self: center;
+    margin: 0;
+    display: inline-block;
+}
+
+.creditsDot2 {
+    color: gray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.creditsOn {
+    color: black;
+    text-decoration: none;
+    width: screen;
+    height: auto;
+    align-self: center;
+    margin: 0;
+    display: none;
+}
+
+.creditsImg {
+    min-width: 70px;
+    min-height: 70px;
+    display: inline-block;
+    border-radius: 500px;
+    background-color: lightgray;
+    background-image: url(../../images/index/001.png);
+    background-attachment: scroll;
+    background-size: 250%;
+    background-position: 60% 0;
 }
 
 h1 {
     font-family: 'Urbane', sans-serif;
     font-weight: 600;
     font-size: 24pt;
-    padding: 20px 0 20px 75px;
+    padding: 20px 0;
     margin: 0;
     color: white;
-    background: black;
+    background: rgb(90,200,100);
     width: 100%;
     display: inline-block;
+    text-align: center;
 }
 
 h2 {
     font-family: 'Urbane', sans-serif;
     font-weight: 100;
-    font-size: 14pt;
-    text-indent: 75px;
-    padding: 20px 0;
+    font-size: 24pt;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
     margin: 10px 0 0 0;
-    color: white;
-    background: gray;
-    width: 360px;
+    width: 100%;
     display: inline-block;
 }
 
 .img1 {
     width: 100%;
+    height: 550px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    background: url(https://pixnio.com/free-images/2018/06/28/2018-06-28-06-54-55.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+    width: 100%;
     height: 360px;
     background-color: lightgray;
     display: grid;
     position: relative;
+    margin-bottom: 2em;
+    background-image: url(https://live.staticflickr.com/698/32592019461_f2736d36d1_b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    width: 100%;
+    height: 480px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    margin-bottom: 2em;
+    background-image: url(https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/bf49f4c/2147483647/strip/true/crop/7360x4125+0+394/resize/728x408!/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F37%2Ff8%2F5ea2874145dfaf8ccc5013556c10%2Fimage-online-doctor-visit.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.txt {
+    font-family: 'Urbane', sans-serif;
 }
 
 @media only screen and (max-width: 1200px) {
     .body1 {
-        margin: 0 75px;
+        margin: 0 35px;
+        width: auto;
         margin-bottom: 2em;
-        text-align: left;
-        display: block;
+        text-align: justify;
+        font-size: 12pt;
+    }
+    
+    .bodyColumn {
+        column-count: 2;
     }
     
     .bodyCont {
         margin: 0;
+        max-width: none;
+    }
+    
+    .buttonMargin {
+        margin-bottom: 0;
+    }
+    
+    .credits {
+        font-size: 10pt;
+    }
+    
+    .creditsCont {
+        margin: 0 0 15px 35px;
+    }
+    
+    h1 {
+        padding: 20px 0;
+        text-indent: 35px;
     }
     
     h2 {
-        padding: 0;
-        margin: 0;
-        display: block;
+        padding: 10px 0;
+        margin: 15px 0 20px 0;
+        font-size: 16pt;
     }
     
     .img1 {
@@ -76,5 +310,46 @@ h2 {
         width: 100%;
         height: 480px;
         display: block;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .bodyColumn {
+        column-count: 1;
+    }
+    
+    .buttonMargin {
+        margin-bottom: 0;
+    }
+    
+    .creditsD {
+        display: none;
+    }
+    
+    .creditsDot2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .creditsA {
+        display: block;
+        margin-right: 5px;
+    }
+    
+    .creditsB {
+        display: none;
+    }
+    
+    .creditsC {
+        display: block;
+    }
+    
+    .creditsDot {
+        display: none;
+    }
+    
+    .creditsOn {
+        display: inline-block;
     }
 }
