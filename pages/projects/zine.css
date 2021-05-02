@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 }
 
 .bodyColumn {
-    column-count: 1;
+    column-count: 2;
     column-fill: balance;
     column-gap: 4em;
 }
@@ -30,6 +31,15 @@ body {
     margin: auto;
     display: block;
     max-width: 1000px;
+}
+
+button {
+    text-decoration: inherit;
+    border: inherit;
+    padding: inherit;
+    display: inherit;
+    color: inherit;
+    background-color: inherit;
 }
 
 .button1 {
@@ -68,6 +78,7 @@ body {
 .buttonPassive {
     background: lightgray;
     color: white;
+    cursor: not-allowed;
 }
 
 .buttonMargin {
@@ -102,6 +113,15 @@ body {
 }
 .captionCred:hover {
     background: rgb(190,190,190);
+}
+
+.cLink {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    background-color: rgb(90,200,100);
 }
 
 .creditsA {
@@ -196,6 +216,98 @@ body {
     background-position: 60% 0;
 }
 
+.cTxt {
+    margin: 20px 75px;
+    letter-spacing: 0.05em;
+}
+.cTxt:first-of-type {
+    margin-top: 30px;
+}
+
+footer {
+    background: rgb(90,200,100);
+    color: white;
+    width: screen;
+    position: relative;
+    height: 65px;
+    margin-top: 15px;
+    display: flex;
+    font-size: 12pt;
+    font-weight: 100;
+    overflow: hidden;
+}
+
+.footerCred {
+    margin-left: 2em;
+    display: inline-block;
+    align-self: center;
+}
+
+.footerCred2 {
+    display: inline-block;
+    align-self: center;
+}
+
+.footerCont {
+    display: flex;
+}
+
+.footerContAlt {
+    display: none;
+}
+
+.footerCredDot {
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    align-self: center;
+}
+
+.footerHome {
+    width: auto;
+    height: 100%;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: rgb(50,160,60);
+    cursor: pointer;
+}
+
+.footerHome:hover {
+    background: rgb(30,140,40);
+}
+
+.footerHomeNull {
+    width: auto;
+    height: 100%;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: gray;
+    cursor: not-allowed;
+}
+
+.footerNo {
+    width: auto;
+    height: 100%;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footerNoDark {
+    background: rgb(70,180,80);
+}
+
+.footerNoSel {
+    box-shadow: 0 5px white inset;
+    background: rgb(50,160,60);
+}
+
 h1 {
     font-family: 'Urbane', sans-serif;
     font-weight: 600;
@@ -216,7 +328,6 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     padding: 10px 0;
     margin: 10px 0 0 0;
@@ -260,8 +371,147 @@ h2 {
     background-size: cover;
 }
 
+.img4 {
+    width: 100%;
+    height: 600px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    margin-bottom: 2em;
+    background-image: url(https://snappygoat.com/b/0739a3a75ab62e4ad75dbe5a6702d3b0b9a5e86c);
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.img5 {
+    width: 100%;
+    height: 300px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    margin-bottom: 2em;
+    background-image: url(https://pleasantonweekly.com/news/photos/2020/july/22/21878_col.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top;
+}
+
+.img6 {
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    margin-bottom: 2em;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b0/SunSet_with_Amazing_Felling_of_Childrens_Happiness.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.img7 {
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/eb/Manufacturing_line.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.img7-1 {
+    width: 100%;
+    height: 360px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    background-image: url(https://live.staticflickr.com/3082/2697297072_2189c83eda_z.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.img8 {
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    display: grid;
+    position: relative;
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/10/13/43/future-4193557_1280.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.pQuote {
+    border-left: 6px solid rgb(90,200,100);
+    font-style: italic;
+    padding-left: 1em;
+    font-weight: 200;
+    font-size: 16pt;
+}
+
+.pQuote2 {
+    display: flex;
+    border-left: 6px solid rgb(90,200,100);
+    font-style: italic;
+    padding-left: 1em;
+    font-weight: 200;
+    font-size: 15pt;
+}
+
+.pQuoteCont {
+    display: block;
+    padding: 25px;
+    color: rgb(100,100,100);
+    text-align: left;
+}
+
+.pQuoteCred {
+    font-weight: 100;
+    font-size: 14pt;
+    padding-left: 1em;
+    margin-top: 0.25em;
+    border-left: 6px solid rgba(0,0,0,0);
+    color: rgb(150,150,150);
+}
+
+.pQuoteCred2 {
+    display: block;
+    font-weight: 100;
+    font-size: 13pt;
+    padding-left: 1em;
+    padding-top: 0.25em;
+    border-left: 6px solid rgba(90,200,100);
+    color: rgb(150,150,150);
+}
+
+.pQuoteImg {
+    display: inline-flex;
+    margin-right: 1em;
+    min-width: 75px;
+    min-height: 75px;
+    background-image: url(https://pbs.twimg.com/profile_images/1326764575681900544/2K8_fRTY_400x400.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+}
+
 .txt {
     font-family: 'Urbane', sans-serif;
+}
+
+.txt2 {
+    font-family: 'Roboto Slab', serif;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -269,7 +519,6 @@ h2 {
         margin: 0 35px;
         width: auto;
         margin-bottom: 2em;
-        text-align: justify;
         font-size: 12pt;
     }
     
@@ -294,6 +543,14 @@ h2 {
         margin: 0 0 15px 35px;
     }
     
+    .footerCont {
+        display: none;
+    }
+    
+    .footerContAlt {
+        display: flex;
+    }
+    
     h1 {
         padding: 20px 0;
         text-indent: 35px;
@@ -311,6 +568,33 @@ h2 {
         height: 480px;
         display: block;
     }
+    
+    .line {
+        margin-bottom: 1em;
+    }
+    
+    .pQuote {
+        font-size: 14pt;
+    }
+    
+    .pQuote2 {
+        font-size: 14pt;
+    }
+    
+    .pQuoteCred {
+        font-size: 12pt;
+        margin-top: 0.125em;
+    }
+    
+    .pQuoteCred2 {
+        font-size: 12pt;
+    }
+    
+    .pQuoteImg {
+        min-height: 80px;
+        max-height: 80px;
+        
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -322,6 +606,11 @@ h2 {
         margin-bottom: 0;
     }
     
+    .caption {
+        padding: 1em 2em;
+        line-height: 1.5em;
+    }
+    
     .creditsD {
         display: none;
     }
@@ -329,6 +618,53 @@ h2 {
     .creditsDot2 {
         display: none;
     }
+    
+    footer {
+        display: block;
+        height: auto;
+    }
+    
+    .footerCred {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        padding-top: 20px;
+    }
+    
+    .footerHome {
+        display: block;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .footerHomeNull {
+        display: block;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .footerNo {
+        display: block;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .footerNoSel {
+        box-shadow: none;
+    }
+    
+    .line {
+        margin-bottom: 2em;
+    }
+    
+    .pQuoteImg {
+        min-width: 100px;
+        max-width: 100px;
+        min-height: 100px;
+        max-height: 100px;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -351,5 +687,17 @@ h2 {
     
     .creditsOn {
         display: inline-block;
+    }
+    
+    .pQuoteCred2 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .pQuoteImg {
+        min-height: 130px;
+        max-height: 130px;
+        min-width: 130px;
+        max-width: 130px;
     }
 }
