@@ -6,6 +6,15 @@ a {
 body {
     margin: 0 auto;
 }
+body.darkmode {
+    margin: 0 auto;
+    background-color: rgb(30,30,30);
+    color: white;
+}
+body.gl {
+    margin: 0 auto;
+    font-weight: 600;
+}
 
 .body1 {
     font-family: 'Roboto Slab', serif;
@@ -19,6 +28,10 @@ body {
     width: auto;
     hyphens: auto;
     -webkit-hyphens: auto;
+}
+.body1.gl {
+    font-weight: 400;
+    font-size: 150%;
 }
 
 .bodyColumn {
@@ -66,6 +79,16 @@ button {
 .buttonActive:hover {
     background: rgb(110,220,120);
 }
+.buttonActive.darkmode {
+    background: none;
+    color: rgb(90,200,100);
+    box-shadow: 0 2px rgb(90,200,100) inset, 2px 0 rgb(90,200,100) inset, 0 -2px rgb(90,200,100) inset, -2px 0 rgb(90,200,100) inset;
+}
+.buttonActive.darkmode:hover {
+    background: rgb(90,200,100);
+    color: white;
+    box-shadow: none;
+}
 
 .buttonActive2 {
     background: rgb(200,75,75);
@@ -74,11 +97,84 @@ button {
 .buttonActive2:hover {
     background: rgb(220,95,95);
 }
+.buttonActive2.darkmode {
+    background: none;
+    color: rgb(220,95,95);
+    box-shadow: 0 2px rgb(220,95,95) inset, 2px 0 rgb(220,95,95) inset, 0 -2px rgb(220,95,95) inset, -2px 0 rgb(220,95,95) inset;
+}
+.buttonActive2.darkmode:hover {
+    background: rgb(220,95,95);
+    color: white;
+    box-shadow: none;
+}
+
+.buttonDM {
+    display: block;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(70,180,80);
+    overflow: hidden;
+    font-size: 30pt;
+}
+
+.buttonDMimg {
+    background-image: url(images/icons/icons-03.svg);
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.buttonDMimg:hover {
+    background-image: url(images/icons/icons-04.svg);
+    background-color: lightgray;
+}
+.buttonDMimg.darkmode {
+    background-image: url(images/icons/icons-01.svg);
+}
+.buttonDMimg.darkmode:hover {
+    background-image: url(images/icons/icons-02.svg);
+    background-color: rgb(30,30,30);
+}
+
+.buttonGL {
+    display: block;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    color: white;
+    cursor: pointer;
+    background-image: url(images/icons/icons-06.svg);
+    background-color: rgb(90,200,100);
+    overflow: hidden;
+    font-size: 30pt;
+    left: 85px;
+}
+.buttonGL:hover {
+    background-image: url(images/icons/icons-07.svg);
+    background-color: lightgray;
+}
+.buttonGL.darkmode {
+}
+.buttonGL.darkmode:hover {
+    background-image: url(images/icons/icons-07.svg);
+    background-color: rgb(30,30,30);
+}
+.buttonGL.gl {
+    background-image: url(images/icons/icons-07.svg);
+}
 
 .buttonPassive {
     background: lightgray;
     color: white;
     cursor: not-allowed;
+}
+.buttonPassive.darkmode {
+    background: none;
+    color: gray;
+    box-shadow: 0 2px gray inset, 2px 0 gray inset, 0 -2px gray inset, -2px 0 gray inset;
 }
 
 .buttonMargin {
@@ -99,6 +195,12 @@ button {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
+.caption.darkmode {
+    color: lightgray;
+}
+.caption.gl {
+    font-size: 150%;
+}
 
 .captionCred {
     display: inline-block;
@@ -114,6 +216,15 @@ button {
 .captionCred:hover {
     background: rgb(190,190,190);
 }
+.captionCred.darkmode {
+    background: none;
+    color: rgb(90,200,100);
+    border: 1px solid rgb(90,200,100);
+}
+.captionCred.darkmode:hover {
+    background: rgb(90,200,100);
+    color: white;
+}
 
 .cLink {
     display: inline-flex;
@@ -122,6 +233,19 @@ button {
     padding: 0 30px;
     color: white;
     background-color: rgb(90,200,100);
+}
+.cLink.darkmode {
+    background: none;
+    color: rgb(90,200,100);
+    box-shadow: 0 2px rgb(90,200,100) inset, 2px 0 rgb(90,200,100) inset, 0 -2px rgb(90,200,100) inset, -2px 0 rgb(90,200,100) inset;
+}
+.cLink.darkmode:hover {
+    background: rgb(90,200,100);
+    color: white;
+    box-shadow: none;
+}
+.cLink.gl {
+    font-size: 150%;
 }
 
 .creditsA {
@@ -141,6 +265,9 @@ button {
     color: white;
     background: rgb(90,200,100);
 }
+.creditsA.darkmode {
+    color: white;
+}
 
 .creditsB {
     color: black;
@@ -151,6 +278,9 @@ button {
     margin-left: 15px;
     display: inline-block;
 }
+.creditsB.darkmode {
+    color: white;
+}
 
 .creditsC {
     color: black;
@@ -160,6 +290,9 @@ button {
     align-self: center;
     display: inline-block;
     margin-left: 0.5em;
+}
+.creditsC.darkmode {
+    color: white;
 }
 
 .creditsCont {
@@ -177,6 +310,9 @@ button {
     align-self: center;
     display: inline-block;
 }
+.creditsD.darkmode {
+    color: white;
+}
 
 .creditsDot {
     color: black;
@@ -187,11 +323,17 @@ button {
     margin: 0;
     display: inline-block;
 }
+.creditsDot.darkmode {
+    color: white;
+}
 
 .creditsDot2 {
     color: gray;
     margin-left: 20px;
     margin-right: 20px;
+}
+.creditsDot2.darkmode {
+    color: white;
 }
 
 .creditsOn {
@@ -202,6 +344,9 @@ button {
     align-self: center;
     margin: 0;
     display: none;
+}
+.creditsOn.darkmode {
+    color: white;
 }
 
 .creditsImg {
@@ -235,6 +380,9 @@ footer {
     font-size: 12pt;
     font-weight: 100;
     overflow: hidden;
+}
+footer.darkmode {
+    background: rgb(50,160,60);
 }
 
 .footerCred {
@@ -288,6 +436,9 @@ footer {
     background: gray;
     cursor: not-allowed;
 }
+.footerHomeNull.darkmode {
+    background: rgb(50,50,50);
+}
 
 .footerNo {
     width: auto;
@@ -298,6 +449,9 @@ footer {
     color: white;
     cursor: pointer;
 }
+.footerNo.gl {
+    font-size: 170%;
+}
 
 .footerNoDark {
     background: rgb(70,180,80);
@@ -307,9 +461,13 @@ footer {
     box-shadow: 0 5px white inset;
     background: rgb(50,160,60);
 }
+.footerNoSel.darkmode {
+    box-shadow: 0 5px rgb(30,30,30) inset;
+    background: rgb(30,140,40);
+}
 
 h1 {
-    font-family: 'Urbane', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-weight: 600;
     font-size: 24pt;
     padding: 20px 0;
@@ -317,8 +475,13 @@ h1 {
     color: white;
     background: rgb(90,200,100);
     width: 100%;
+    height: 45px;
     display: inline-block;
+    text-transform: uppercase;
     text-align: center;
+}
+h1.darkmode {
+    color: rgb(30,30,30);
 }
 
 h2 {
@@ -333,6 +496,10 @@ h2 {
     margin: 10px 0 0 0;
     width: 100%;
     display: inline-block;
+}
+h2.gl {
+    font-weight: 400;
+    font-size: 300%;
 }
 
 .img1 {
@@ -474,6 +641,9 @@ h2 {
     color: rgb(100,100,100);
     text-align: left;
 }
+.pQuoteCont.darkmode {
+    color: white;
+}
 
 .pQuoteCred {
     font-weight: 100;
@@ -509,9 +679,30 @@ h2 {
 .txt {
     font-family: 'Urbane', sans-serif;
 }
+.txt.gl {
+    font-weight: 600;
+    font-size: 150%;
+}
 
 .txt2 {
     font-family: 'Roboto Slab', serif;
+}
+.txt2.gl {
+    font-weight: 400;
+    font-size: 150%;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: none;
+}
+::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(200,200,200);
 }
 
 @media only screen and (max-width: 1200px) {
